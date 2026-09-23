@@ -1,6 +1,6 @@
 # Maigret database
 
-The file was updated on 2026-09-20. Maigret currently supports 6121 sites.
+The file was updated on 2026-09-23. Maigret currently supports 6127 sites.
 
 ## Contents
 
@@ -18,16 +18,16 @@ The file was updated on 2026-09-20. Maigret currently supports 6121 sites.
 
 ### Coverage
 
-- **Enabled sites:** 5423/6121 = 88.6%
-- **Check types:** status_code 2761 (50.91%), message 2585 (47.67%), response_url 77 (1.42%)
-- **Countries:** 77 tagged, 3373 sites (55.11%) have no country tag
+- **Enabled sites:** 5429/6127 = 88.61%
+- **Check types:** status_code 2761 (50.86%), message 2585 (47.61%), response_url 77 (1.42%), (none) 6 (0.11%)
+- **Countries:** 77 tagged, 3377 sites (55.12%) have no country tag
 
 ### Check strength
 
-- **Weak-signal checks:** 3268/5423 = 60.26% (status code checks, plus message checks missing a string)
-- **Status code checks:** 2761/5423 = 50.91% (existence inferred from the HTTP code alone)
-- **Message checks missing a string:** 507/5423 = 9.35% (presence or absence strings, not both)
-- **Message checks without presence markers:** 241/5423 = 4.44% (subset of the line above, absence strings are the only signal)
+- **Weak-signal checks:** 3268/5429 = 60.2% (status code checks, plus message checks missing a string)
+- **Status code checks:** 2761/5429 = 50.86% (existence inferred from the HTTP code alone)
+- **Message checks missing a string:** 507/5429 = 9.34% (presence or absence strings, not both)
+- **Message checks without presence markers:** 241/5429 = 4.44% (subset of the line above, absence strings are the only signal)
 
 ### Special cases
 
@@ -42,12 +42,12 @@ The file was updated on 2026-09-20. Maigret currently supports 6121 sites.
 - (165)	`de`
 - (137)	`global`
 - (126)	`ua`
-- (115)	`us`
+- (116)	`us`
 - (94)	`fr`
 - (72)	`pl`
 - (71)	`gb`
 - (49)	`cn`
-- (42)	`jp`
+- (43)	`jp`
 - (39)	`ca`
 - (36)	`nl`
 - (36)	`tr`
@@ -64,7 +64,7 @@ The file was updated on 2026-09-20. Maigret currently supports 6121 sites.
 - (303)	`/user/{username}`
 - (222)	`{urlMain}{urlSubpath}/User:{username} (MediaWikiJson)`
 - (219)	`/profile/{username}`
-- (154)	`/users/{username}`
+- (157)	`/users/{username}`
 - (143)	`{urlMain}/u/{username} (Lemmy)`
 - (137)	`/u/{username}`
 - (132)	`{urlMain}{urlSubpath}/member.php?username={username} (vBulletin)`
@@ -111,13 +111,13 @@ The file was updated on 2026-09-20. Maigret currently supports 6121 sites.
 
 - (2971)	`forum`
 - (1991)	`discussion`
-- (803)	`social`
-- (746)	`tech`
+- (806)	`social`
+- (748)	`tech`
 - (591)	`wiki`
-- (556)	`coding`
+- (557)	`coding`
 - (518)	`gaming`
-- (249)	`education`
-- (240)	`hobby`
+- (250)	`education`
+- (243)	`hobby`
 - (230)	`business`
 - (165)	`apps`
 - (161)	`blog`
@@ -6257,3 +6257,9 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://teapot.informationsanarchistik.de) [teapot.informationsanarchistik.de (https://teapot.informationsanarchistik.de)](https://teapot.informationsanarchistik.de)*: top 100M, coding, de, tech*
 1. ![](https://www.google.com/s2/favicons?domain=https://z0ne.dev) [z0ne.dev (https://z0ne.dev)](https://z0ne.dev)*: top 100M, coding, global, tech*
 1. ![](https://www.google.com/s2/favicons?domain=https://zivgitlab.uni-muenster.de) [zivgitlab.uni-muenster.de (https://zivgitlab.uni-muenster.de)](https://zivgitlab.uni-muenster.de)*: top 100M, coding, de, tech*
+1. ![](https://www.google.com/s2/favicons?domain=https://cs.cmu.edu) [cs.cmu.edu (https://cs.cmu.edu)](https://cs.cmu.edu)*: top 100M, education, science, us*
+1. ![](https://www.google.com/s2/favicons?domain=https://eggplant.place) [eggplant.place (https://eggplant.place)](https://eggplant.place)*: top 100M, hobby, social*
+1. ![](https://www.google.com/s2/favicons?domain=https://neodb.social) [neodb.social (https://neodb.social)](https://neodb.social)*: top 100M, hobby, social*
+1. ![](https://www.google.com/s2/favicons?domain=https://sr.ht) [sr.ht (https://sr.ht)](https://sr.ht)*: top 100M, coding, tech*
+1. ![](https://www.google.com/s2/favicons?domain=https://taittsuu.com) [taittsuu.com (https://taittsuu.com)](https://taittsuu.com)*: top 100M, jp, social*
+1. ![](https://www.google.com/s2/favicons?domain=https://tilde.club) [tilde.club (https://tilde.club)](https://tilde.club)*: top 100M, hobby, tech*
